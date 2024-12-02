@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flushbonading</title>
+    
+<script crossorigin  type="module"  src="https://de2.fit2cloud.com./js/panel-0.0.0-dataease.js" ></script>
+<link crossorigin  rel="stylesheet"  href="https://de2.fit2cloud.com./assets/css/style-0.0.0-dataease.css" ></link>
+</head>
+<style>
+    .demo-top {
+        display: inline-flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #dataease-container {
+        display: inline-flex;
+        width: 300px;
+        height: 300px;
+        overflow: auto;
+    }
+
+    .demo-bottom {
+        display: inline-block;
+    }
+</style>
+<body>
+    <div class="demo-top">
+        flushbonading
+    </div>
+    <div id="dataease-container">
+    </div>
+    <div class="demo-bottom">
+        flushbonading
+    </div>
+</body>
+<script type="module">
+    DataEaseBi.create('DashboardEditor', { baseUrl: 'https://de2.fit2cloud.com/', token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsIm9pZCI6MSwiZXhwIjoxNjg2NTgzMDg5fQ.JYvk4Oe6as9Xbf-EPf3w5w9OexUo0pZUsFXXMZFM57U' })
+    DataEaseBi.initialize({ container: '#dataease-container' })
+</script>
+
+</html>

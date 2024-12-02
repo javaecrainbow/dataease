@@ -32,16 +32,15 @@ package-lock.json
 core/core-frontend/release/
 plugins/vite-test
 core/core-frontend/.stylelintcache
-/core/core-backend/src/main/resources/static/
-/core/core-backend/src/test
-/core/core-frontend/node/
-/core/core-frontend/lib/
+##/core/core-backend/src/main/resources/static/
+##/core/core-backend/src/test
+##/core/core-frontend/node/
+##/core/core-frontend/lib/
 /core/core-frontend/components.d.ts
 core/core-frontend/src/assets/fsSvg.js
 core/core-frontend/src/assets/fsSvg.html
 .flattened-pom.xml
 ##/core/core-backend/
-/core/frontend/
 /core/mobile/
 /sdk/dataease-plugin-common/
 /sdk/dataease-plugin-datasource/
@@ -50,4 +49,3 @@ core/core-frontend/src/assets/fsSvg.html
 /sdk/dataease-plugin-view/
 /extensions/
 .vite/
-/core/backend/

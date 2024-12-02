@@ -291,28 +291,6 @@
                     <version>0.2</version>
                     <scope>runtime</scope>
                 </dependency>
-
-                <dependency>
-                    <groupId>io.dataease</groupId>
-                    <artifactId>xpack-base</artifactId>
-                    <version>1.0.0</version>
-                    <scope>system</scope>
-                    <systemPath>${basedir}/src/main/resources/lib/xpack-base.jar</systemPath>
-                </dependency>
-                <dependency>
-                    <groupId>io.dataease</groupId>
-                    <artifactId>xpack-permission</artifactId>
-                    <version>1.0.0</version>
-                    <scope>system</scope>
-                    <systemPath>${basedir}/src/main/resources/lib/xpack-permission.jar</systemPath>
-                </dependency>
-                <dependency>
-                    <groupId>io.dataease</groupId>
-                    <artifactId>xpack-sync</artifactId>
-                    <version>1.0.0</version>
-                    <scope>system</scope>
-                    <systemPath>${basedir}/src/main/resources/lib/xpack-sync.jar</systemPath>
-                </dependency>
                 <dependency>
                     <groupId>io.dataease</groupId>
                     <artifactId>xpack-base-2.10.2</artifactId>

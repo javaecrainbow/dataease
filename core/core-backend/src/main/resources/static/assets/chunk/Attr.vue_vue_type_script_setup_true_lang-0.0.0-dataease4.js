@@ -1,0 +1,1 @@
+import{d as o}from"./dvMain-0.0.0-dataease.js";import{C as s}from"./CommonAttr-0.0.0-dataease.js";import{d as n,ai as r,f as a,M as c,k as m,j as i}from"./vue-0.0.0-dataease.js";const l={class:"attr-list de-collapse-style"},h=n({__name:"Attr",setup(p){const e=o(),{curComponent:t}=r(e);return(_,d)=>(a(),c("div",l,[m(s,{element:i(t)},null,8,["element"])]))}});export{h as _};
